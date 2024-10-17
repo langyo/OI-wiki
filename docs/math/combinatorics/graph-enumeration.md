@@ -155,7 +155,7 @@ c_{n, i} &= \sum_{i=0}{n-1} \binom{n-1}{i-1} c_{n, 1}c_{n-i,k-1}
 \end{align}
 $$
 
-不难得到 $b_n$ 的递推关系，复杂度 $O(n^3)$，进一步使用冗斥原理，可以优化到 $O(n^2)$ 通过本题。
+不难得到 $b_n$ 的递推关系，复杂度 $O(n^3)$，进一步使用容斥原理，可以优化到 $O(n^2)$ 通过本题。
 
 #### 方法二：连通化递推
 
@@ -205,7 +205,7 @@ $$
 
 ??? 参考代码
     ```cpp
-    --8<-- "docs/math/combinatorics/code/graph-enumeration/graph-enumeration_1.cpp"
+    --8<-- "docs/math/code/combinatorics/graph-enumeration/graph-enumeration_1.cpp"
     ```
 
 ### 习题
@@ -331,7 +331,7 @@ $$
 
 ??? 参考代码
     ```cpp
-    --8<-- "docs/math/combinatorics/code/graph-enumeration/graph-enumeration_2.cpp"
+    --8<-- "docs/math/code/combinatorics/graph-enumeration/graph-enumeration_2.cpp"
     ```
 
 ## 习题
@@ -347,6 +347,7 @@ $$
 -   [AtCoder Beginner Contest 284 Ex. Count Unlabeled Graphs](https://atcoder.jp/contests/abc284/tasks/abc284_h)
 -   [Luogu P4708. 画画](https://www.luogu.com.cn/problem/P4708)
 -   [Luogu P7592. 数树（2021 CoE-II E）](https://www.luogu.com.cn/problem/P7592)
+-   [Luogu P5206. \[WC2019\] 数树](https://www.luogu.com.cn/problem/P5206)
 
 ## 参考资料与注释
 
